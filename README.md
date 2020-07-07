@@ -71,7 +71,6 @@ Database has updated!
 Symbol added to the list!
 ```
 you can find every symbol's code at the end of its URL:
-
 <a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=2400322364771558">http://www.tsetmc.com/loader.aspx?ParTree=151311&i=</strong>2400322364771558</strong></a>
 
 
