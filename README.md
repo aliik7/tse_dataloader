@@ -2,7 +2,7 @@
 
 tse_dataloader is a python package for extracting stock historical data from Tehran Stock Exchange.
 
-[![Generic badge](https://img.shields.io/badge/pypi-0.1.1-<COLOR>.svg)](https://shields.io/) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/pypi-v0.1.2-<COLOR>.svg)](https://shields.io/) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 - [x] Extract data and load them in `Pandas` data frame
 - [x] Calculate SMA and EMA
 - [x] Create line charts with `matplotlib`
@@ -14,7 +14,7 @@ pip install tse_dataloader
 
 ## Functions:
 
-- Loading data with **get_data(ticker)**
+- Loading data with **get_data(ticker)** or **getcode_data(code)**
 
 ```
 >>> from tse_dataloader import download
@@ -36,6 +36,8 @@ Date                                         ...
 2020-07-07  S*Mellat.Bank  27320.0  28200.0  ...  26860.0  26040.0   1399/04/17
 
 [2374 rows x 12 columns]
+
+>>> MELT= download.getcode_data(778253364357513)
 ```
 - Plot Close price and Volume line chart with **close_vol()**
 
